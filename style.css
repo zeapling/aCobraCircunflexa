@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+.imgT{
+
+    width: 16%;
+    padding-top: 9%;
+    padding-left: 4%;
+}
+   
+body{
+    background-color: #000000;
+}
+.fundo {
+    background-image: url(imgens/GLOBIN.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  
+    height: 100%;
+    
+    
+}
+
+
+#jogarMeio{
+
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   width: 100%;
+   position: absolute;
+   height: 85%;
+
+z-index: 99;
+ 
+}
+.meio{
+
+    width: 100%;
+    text-align: center;
+
+}
+#meio1{
+    
+   z-index:1;
+    width:180vh;
+    
+   
+  
+    cursor: pointer;
+ 
+    border: solid 0.5vw #ecebe1;;
+     box-shadow: 10px 10px 1000px 50px rgb(0, 0, 0);
+  ;
+    background: url(/imgens/Giant-Constrictor-Snake-transformed.jpeg);    
+    background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2% 2% 2%;
+
+  
+}
+#meio1 p{
+    text-align: center;
+    width:auto;
+    font-family: 'Kanit', sans-serif;;
+    font-size:xx-large;
+  color: #f1efd8;
+    font-size: 2vw;
+    padding: 1vw;
+  
+
+}
+.botaoJogar{
+
+   
+   z-index: 120;
+    bottom: 0;
+}
+
+#gridTela{
+    
+z-index: 100;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+    background-color: #ff000000;
+   
+}
+#gridTela div{
+
+    
+    
+    aspect-ratio: 1/1;
+}
+
+
+
+.parteMeio{
+
+    
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(/imgens/willie-zhang-1.jpg);    
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.divTela
+{
+    
+    background-color: #fffef0;
+    
+    min-width: clamp(39.5vh,700px,39.8vh);
+    
+    width: 38.5vw;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    border-color: #00000000;
+    margin: 2.22vh;
+}
+
+.logoJogo{
+    
+    width: 100%;
+}
+
+#textoHeader  p  {
+    text-align: center;
+    color: #73ca0f; 
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vw;
+   padding-top: 4%
+}
+
+#textoHeader    {
+    width: 100%;
+   
+}
+.ficarMeio{
+    width: 100%;
+    
+}
+
+.divHeader{ 
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0,4%;
+    background-color:#000000;
+    color: #c6c30d;
+    font-size: clamp(20px, 1vw, 150px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 0;
+}
+
+
+.divFooter{
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    height: 8vh;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0,4%;
+    background-color:#000000;
+    color: #898989;
+    font-size: clamp(20px, 1vw, 150px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parabens{
+
+    z-index: -1000;
+}
