@@ -16,7 +16,7 @@ body{
     background-color: #000000;
 }
 .fundo {
-    background-image: url(imgens\GLOBIN.png);
+    background-image: url(GLOBIN.png);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -59,7 +59,7 @@ z-index: 99;
     border: solid 0.5vw #ecebe1;;
      box-shadow: 10px 10px 1000px 50px rgb(0, 0, 0);
   ;
-    background: url(imgens\Giant-Constrictor-Snake-transformed.jpeg);    
+    background: url(iant-Constrictor-Snake-transformed.jpeg);    
     background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2% 2% 2%;
