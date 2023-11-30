@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded",function()
 {
 
@@ -40,11 +39,6 @@ document.getElementById('meio1').style.display="none";
 ;
 
 };
-
-
-
-
-
 
 aux2+=1;
 teclaP[aux2]=event.key;
@@ -92,17 +86,12 @@ else if (event.key == "ArrowDown" && teclaP[aux2-1]!="ArrowUp")
 }
 }})
 
-
-
 function movime(){
    
    tileNumCobra = "tile" + "(" + y + ")" + "(" + x + ")";
    document.getElementById(tileNumCobra).style.backgroundColor="#73ca0f";
 
    comparar=tileNumCobra;
-
-  
-  
    
    posicoesX[aux]=x;
    posicoesY[aux]=y;
@@ -115,7 +104,6 @@ function movime(){
 return comparar;
 
 }
-
 
 setInterval(function testar()
 {
@@ -138,28 +126,16 @@ setInterval(function testar()
    
          for(aux3=comprimento;aux3>0;aux3--){
             tileTodo= "tile" + "(" + testY[aux3]  + ")" + "(" + testX[aux3]  + ")";
-            console.log("aaaaaaaaaaaaaaa   " + comprimento);
-            console.log("aaaaaaaaaaaaaaa   " + comprimento);
-              console.log("bbbbbbbbbbbbbbb   " + testX[aux3]);
-              console.log("bbbbbbbbbbbbbbb   " + testX);
-              console.log("ccccccccccccccc   " + x );
-              console.log("BBBBBBBBBBBBBB  " + testY);
-              console.log("CCCCCCCCCCCCCCC  " + y );
-              console.log("1111111111  " + tileTodo);
-              console.log("222222222222  " + comparar);
+           
          }
          if(comparar == tileTodo)
          {
             window.location.reload();
             
            }
-
          
          }
 
-      
-        
-  
    if(comparar == comparar2)
    {
    
@@ -174,55 +150,23 @@ setInterval(function testar()
 
    };
 
-},vel);
+   },vel);
 
 
 document.addEventListener('keydown', (event) => {
 
-  
-   
-   if (cont<0){
+if (cont<0){
 
-      lugarX = Math.floor(Math.random() * 19);  
-      lugarY = Math.floor(Math.random() * 19); 
+   lugarX = Math.floor(Math.random() * 19);  
+   lugarY = Math.floor(Math.random() * 19); 
 
-      tileNumAbacaxi = "tile" + "(" + lugarY + ")" + "(" + lugarX + ")";
+   tileNumAbacaxi = "tile" + "(" + lugarY + ")" + "(" + lugarX + ")";
    document.getElementById(tileNumAbacaxi).style.backgroundColor="#a11212";
-   
    comparar2 = tileNumAbacaxi;
-
    cont=10;
-
-   console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-
    return comparar2;
-     
-   };
-
    
-  
-
-
-   })
+};
    
+ }) 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-     
-      
-
-
